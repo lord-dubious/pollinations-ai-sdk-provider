@@ -45,6 +45,24 @@ console.log(text);
 - **grok** - xAI Grok-3 Mini ✅
 - **qwen-coder** - Qwen 2.5 Coder 32B ✅
 
+## Configuration
+
+Set your API token:
+
+```bash
+export POLLINATIONS_TOKEN=your-api-token
+```
+
+Or pass it directly:
+
+```typescript
+import { createPollinations } from '@pollinations/ai-sdk-provider';
+
+const pollinations = createPollinations({
+  apiKey: 'your-api-token'
+});
+```
+
 ## License
 
 MIT
